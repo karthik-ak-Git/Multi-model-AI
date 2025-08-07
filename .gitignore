@@ -1,0 +1,27 @@
+# Environments
+.env
+venv
+
+# Python
+__pycache__/
+*.pyc
+
+# Databases
+chroma_db/
+chroma_db_codebase/
+
+# Data files
+data/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+
+

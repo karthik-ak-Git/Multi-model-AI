@@ -1,0 +1,36 @@
+# Core Frameworks
+langchain==0.2.0
+langchain-core==0.2.5
+langgraph==0.0.63
+langsmith==0.1.69     # ✅ works for both langchain and langchain-core
+openai==1.30.1
+google-generativeai==0.5.4
+python-dotenv==1.0.1
+tqdm==4.66.4
+
+# Vector DBs
+chromadb==0.4.24
+pinecone-client==3.0.2
+
+# Embeddings + LLM Clients
+sentence-transformers==2.7.0
+transformers==4.41.2
+huggingface-hub==0.23.1
+
+# FastAPI for possible API interface
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# Ollama / Mistral
+ollama==0.1.9
+httpx==0.27.0
+
+# Optional utilities
+pydantic==2.11.7
+rich==13.7.1
+#pip install pinecone-client
+#pip install langchain_community
+#pip install langchain-openai
+#pip install duckduckgo-search
+#pip install -U langchain-huggingface
+#pip install gradio
